@@ -19,8 +19,8 @@ html {
 
 .button {
     border-radius: 0.25rem;
-    background-color: #A9D6E5;
-    color: black;
+    background-color: #2E3440;
+    color: #E8F1F5;
 }
 
 .button:hover {
@@ -38,8 +38,8 @@ html {
 }
 
 .divider {
-    max-width: 70%;
-    border-top: solid 2px #D8DEE9;
+    max-width: 60%;
+    border-top: solid 3px #D8DEE9;
     margin: auto;
 }
 
@@ -72,8 +72,8 @@ h3 {
 header {
     position: fixed;
     z-index: 5;
-    border-bottom: solid 2px #885ad3 ;
-    background-color: #C3B1E1;
+    background-color: #E8F1F5;
+    border-bottom: solid 2px #2E3440;
     width: 100%;
 }
 
@@ -86,7 +86,7 @@ header .logo-container {
 header .logo {
     font-family: "Playfair Display";
     font-size: 1.75rem;
-    color: #4e1ba0;
+    color: #2E3440;
     font-weight: 600;
     line-height: 1.1;
 }
@@ -106,10 +106,11 @@ header nav ul {
 nav a {
     font-size: 1.1rem;
     font-weight: 600;
+    color: #2E3440;
 }
 
 nav a:hover {
-    color: #fff
+    color: #C3B1E1
 }
 
 .desktop ul li{
@@ -148,7 +149,48 @@ nav a:hover {
 
 /* UPCOMING EVENTS */
 
+#events {
+    padding: 4rem 10rem;
+}
+#events h2 {
+    margin-bottom: 2rem;
+}
+
+#events .event-container {
+    display: flex;
+}
+
+#events .event-title {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 600;
+   
+}
+#events p {
+    padding-left: .5rem;
+    line-height: 1.4;
+}
+
 /*  OFFERINGS */
+
+#offerings.content {
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#offerings.content h2 {
+    padding: 2rem;
+}
+
+.offerings-containers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
 
 .offering-container {
     overflow: hidden;
@@ -212,6 +254,96 @@ nav a:hover {
 
 /* JOIN US */
 
+#join-us {
+    padding: 3rem 2rem .5rem 2rem;
+}
+
+#join-us h2 {
+    line-height: 1.1;
+}
+
+#join-us h4 {
+    margin-top: .5rem;
+}
+
+.membership-containers {
+    display: flex;
+    justify-content: center;
+}
+
+.membership-container {
+    display: block;
+    overflow: hidden;
+    border: solid 2px #2E3440;
+    border-radius: 1rem;
+    width: 16rem;
+    height: 18rem;
+    margin: 2rem 1rem;
+}
+
+#join-us .type {
+    background-color: #2E3440;
+    color:#E8F1F5;
+    padding: .6rem 0;
+}
+
+#join-us .description {
+    padding: 1.5rem 0;
+}
+
+#join-us .image-container {
+    display: flex;
+    justify-content: center;
+    padding: .7rem;
+}
+
+#join-us .image-container img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.join-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #2E3440;
+    color: #E8F1F5;
+    padding: 4rem 0;
+}
+
+.join-banner h3 {
+    font-size: 2rem;
+    
+}
+
+.join-banner .button {
+    padding: 1.2rem 3rem;
+    font-weight: 600;
+    margin-left: 4rem;
+    background-color: #2E3440;
+    border: solid 2px #E8F1F5;
+    color: #E8F1F5;   
+}
+
+.join-banner .button:hover {
+    background-color: #C3B1E1;
+    border: solid 2px #C3B1E1;
+    color: #E8F1F5;   
+}
+
 /* CONTACT US */
 
 /* FOOTER US */
+
+footer {
+    background-color: #A9D6E5;
+    padding: 1rem 2rem;
+}
+
+footer .content {
+    color: #2E3440;
+    display: flex;
+    font-size: .75rem;
+    opacity: 80%;
+}
