@@ -304,14 +304,15 @@ nav a:hover {
 }
 
 #offerings.content h2 {
-    padding: 2rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
 }
 
 .offerings-containers {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 2rem 15rem;
+    padding: 0 15rem 2rem 15rem;
 }
 
 .offering-container {
